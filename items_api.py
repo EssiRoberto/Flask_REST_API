@@ -8,5 +8,5 @@ items = [{"id": 1, "name": "Item One"}, {"id": 2, "name": "Item Two"}]
 def get_items():
     return jsonify(items)
 
-if __name__ == "__main__" :
+if __name__ == "__main__":
     app.run(debug=True)
